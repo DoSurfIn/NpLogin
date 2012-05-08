@@ -121,14 +121,22 @@ function nplogin () {
 	
 	if (!empty ($background)) {
 ?>
-	.login,body.login {
+	body{
 		background:url(<?php echo $background; ?>) left top no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 	}
 <?php
 	}else{
 ?>
-        .login,body.login {
+        body{
                 background:url('<?php echo $pluginUrl; ?>/images/save_mountains.jpg') left top no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
         }
 <?php
         }
