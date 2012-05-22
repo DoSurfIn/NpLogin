@@ -1,7 +1,7 @@
 === NpLogin ===
 Plugin Name: NpLogin
 Plugin URI: http://www.dosurfin.com/products/wp-plugins/nplogin/
-Version: 0.1
+Version: 1.1
 Author: AnupRaj
 Author URI: http://anupraj.com.np/
 License: GPL3
